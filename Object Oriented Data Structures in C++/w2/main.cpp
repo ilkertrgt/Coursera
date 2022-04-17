@@ -4,14 +4,20 @@
  * Object-Oriented Data Structures in C++ - Week 2
  * Hello World Project
  *
- * @author Eric Huber - University of Illinois staff - July 2019
+ * @author Ilker Turgut - April 2022
 **/
 
-// You need to include some header(s) here!
+#include <iostream>
 
+using namespace std;
 
-// You need to define your main() function here!
+int main() {
 
+    cout << "Hello World" << endl;
+    cout << "Greetings from Illinois!" << endl;
+    
+    return 0;
+}
 
 // Notes:
 
