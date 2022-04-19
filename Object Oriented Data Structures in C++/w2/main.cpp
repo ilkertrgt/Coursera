@@ -9,15 +9,7 @@
 
 #include <iostream>
 
-using namespace std;
-
-int main() {
-
-    cout << "Hello World" << endl;
-    cout << "Greetings from Illinois!" << endl;
-    
-    return 0;
-}
+// using namespace std;
 
 // Notes:
 
@@ -33,4 +25,12 @@ int main() {
 
 // Also note, the autograder does not care about letter case, punctuation,
 // or spacing! But it does care about spelling and the order of words!
+
+int main() {
+
+    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Greetings from Illinois!" << std::endl;
+    
+    return 0;
+}
 
